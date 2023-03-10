@@ -1,0 +1,334 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
+}
+
+.container{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    position: fixed;
+    background-color: #155bd5;
+}
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    height: 40px;
+}
+.headerlist
+{
+    list-style: none;
+    display: flex;
+    left: 350px;
+    top: 40px;
+    text-align: center;
+    position: absolute;
+}
+.headerlistitems{
+    color: white;
+    font-size: larger;
+    margin-left: 30px;
+    letter-spacing: 1px;
+}
+.listbutton{
+    left: 770px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+}
+.containerMain{
+    height: 700px;
+    width: 100%;
+    background-color: #155bd5;
+    display: flex;
+    align-items: center;
+}
+.container2{
+    background-color: #155bd5;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.firstText{
+    color: white;
+    font-size: 45px;
+    width: 500px;
+    height: 50px;
+    display: inline-block;  
+}
+.secondText{
+    color: #abc4f0;
+    font-size: 18px;
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.container3{
+    background-color: #155bd5;
+    margin-top: 50px;
+}
+.photo1{
+    width: 550px;
+    height: 430px;
+    display: inline-block;
+    border-radius: 0.2cm; 
+    margin-left: 50px; 
+    margin-top: 40px;  
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.getstarted{
+    color: #155bd5;
+    font-weight: bold;
+    font-size: 0.4cm;
+    border-radius: 0.2cm;;
+    border: none;
+    height: 50px;
+    width: 180px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.watchIntro{
+    color: white;
+    font-size: 0.5cm;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.playButton
+{
+    background-color: #155bd5;
+    border: none;
+    color: white;
+    margin-left: 30px;
+    font-size: 50px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.stickies{
+    position: sticky;
+    position: fixed;
+    bottom: 20px;
+    top: 550px;
+    left:60px;
+    padding: 8px;
+    background-color: white;
+    border: none;
+    border-radius: 0.15cm;
+    font-size: 0.4cm;
+    font-weight: bold;
+    border: outset;
+    border-color: #fafafa;
+    border-width: 1px;
+}
+
+.containerMain2{
+    background-color: #fafafa;
+    width: 100%;
+    height: 650px;
+    display: flex;
+   
+}
+.aboutImage{
+    display: inline-block; 
+    margin-left: 120px; 
+    margin-top: 120px; 
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+.containerAbout{
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 60px;
+}
+.ourStory{
+    font-size: x-large;
+    display: inline-block;
+    margin-top: 140px;
+}
+.ourTeam{
+    font-size: x-large;
+    display: inline-block;
+    margin-top: 20px;
+    font-size:5ch;
+}
+.buttonsAbout{
+    background-color: #efefef;
+    height: 80px;
+    margin-top: 20px;
+    border-radius: 0.2cm;
+    align-items: center;
+    display: flex;
+}
+.buttonAbout{
+  background-color: white;
+  height: 50px;
+  width: 120px;  
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size:2ch;
+  border: none;
+  border-radius: 0.2cm;
+  margin-left: 35px;
+}
+.firstTeam{
+    font-size:medium;
+    display: inline-block;
+    margin-top: 20px;
+    font-size:2.4ch;
+    color: #9b9c9b;
+}
+.secondTeam{
+    font-size:medium;
+    display: inline-block;
+    margin-top: 20px;
+    font-size:2.4ch;
+    color: #9b9c9b;
+}
+.containerMain3{
+    margin-top: 80px;
+}
+.aboutText
+{
+    text-align: center;
+}
+.servicesMainText
+{
+    margin-top: 20px;
+    border-style: solid;
+    padding: 10px 30px; 
+    border-color: #155bd5;
+    color: #155bd5;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 1cm;
+}
+.bestservicesText
+{
+    padding: 5px 30px;
+    margin-top: 30px;
+    display: block;
+}
+.servicesText{
+    padding: 5px 30px;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 320px;
+    text-align: center;
+    color: #788691;
+    font-size:2.4ch;
+    display: block;
+}
+.typeOfServices{
+    margin-top: 50px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.servicesBox{
+    width: 350px;
+    height: 300px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-radius: 0.2cm;
+    border-width: 0.01cm;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.serciesBoxHeader{
+    display: inline;
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    margin-right: 115px;
+    margin-left: 20px;
+}
+.serciesBoxText{
+    display: inline-block;
+    color: #788691;
+    font-size:2.4ch;
+    margin-left: 20px;
+}
+
+.iconServices{
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 50px;
+    color: #155bd5;
+}
+
+.aboutText.introvideo{
+    width: 100%;
+    height: 900px;
+    background-color: #fafafa;
+}
+.servicesMainText.introvideo{
+    margin-top: 100px;
+}
+.video{
+margin-top: 70px;
+margin-bottom: 50px;
+border-radius: 0.2cm;
+}
+
+.servicesMainText.portfolio{
+    margin-top: 100px;
+}
+.listportfolio{
+    list-style: none;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 180px;
+}
+.listportfolioitems{
+    color: #788691;
+    font-size:0.45cm;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.typeOfportfolio{
+    margin-top: 50px;
+}
+.portfolioRow{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.portfolioBox{
+    width: 350px;
+    height: 400px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagePortfolio{
+    border-radius: 0.2cm;
+}
+.portfolioBoxText{
+    font-size:large;
+}
+
+
+
+
+
+
+
+
