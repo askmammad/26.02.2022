@@ -4,7 +4,6 @@
     margin: 0px;
     padding: 0px; 
 }
-
 .container{
     height: 100px;
     width: 100%;
@@ -269,8 +268,17 @@
 .iconServices{
     margin-left: 40px;
     margin-top: 50px;
+    height: 80px;
+    width: 80px;
     font-size: 50px;
     color: #155bd5;
+    border-style: solid;
+    border-radius: 5cm;
+    padding: 12px;
+}
+.iconServices:hover{
+    color: white;
+    background-color: #155bd5;
 }
 
 .aboutText.introvideo{
@@ -301,6 +309,10 @@ border-radius: 0.2cm;
     font-size:0.45cm;
     font-weight: bold;
     margin-left: 70px;
+}
+.listportfolioitems:hover{
+    color: #155bd5;
+    text-decoration: underline;
 }
 .typeOfportfolio{
     margin-top: 50px;
