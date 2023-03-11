@@ -309,10 +309,11 @@ border-radius: 0.2cm;
     font-size:0.45cm;
     font-weight: bold;
     margin-left: 70px;
+    border-bottom: solid white;
 }
 .listportfolioitems:hover{
     color: #155bd5;
-    text-decoration: underline;
+    border-bottom: solid #155bd5;   
 }
 .typeOfportfolio{
     margin-top: 50px;
